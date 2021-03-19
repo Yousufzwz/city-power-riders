@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# City Power Riders
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## City Power Riders Overview:
+1. Hire a vehicle.
+2. Select your destination.
+3. Get direction about your destination.
+
+## Usage Technologies:
+1. React JS
+2. React Router
+3. React Bootstrap
+4. Firebase Auth
+5. Google Maps
+
 
 ## Available Scripts
 
