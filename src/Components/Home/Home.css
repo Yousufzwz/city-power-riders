@@ -1,0 +1,35 @@
+#home{
+    background-color: lightslategray;
+}
+#home .placeName {
+    padding-left: 20%;
+    font-size: 44px;
+    font-weight: bold;
+}
+#home .photo {
+    background-color:whitesmoke;
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+    border: 2px solid darkslategrey;
+    border-radius: 20px;
+}
+#home .small{
+    font-weight: bold;
+    border: none;
+}
+#home .small:active {
+    transform: scale(0.98);
+}
+@media screen and (max-width: 576px) {
+    #home .placeName{
+        font-size: 30px;
+    }
+    #home .photo {
+        display: none;
+    }
+    #home .small{
+        padding: 10px;
+        border: 1px solid darkslategrey;
+    }
+}
