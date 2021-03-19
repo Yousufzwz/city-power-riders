@@ -3,7 +3,7 @@ const fakeData = [
         location:'destination-area',
         name: 'Bike',
         journey:'Gulshan-To-Banani',
-        photo:'https://lh3.googleusercontent.com/proxy/g9Bdfe_uCZ-No6ibn0yczYQBUeYzVhrHR2e5OjyZDnpmU2FZXiADnXln99l8C5X2f8oqOUkq4qGxS4FfMzo31onTRhNEJAI',
+        photo:'https://cdnb.artstation.com/p/assets/images/images/015/279/529/large/ivanise-konopka-raph-bike.jpg?1547754525',
         map: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d222540.22924604843!2d92.2515174!3d23.5122763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3752feb9eb8c7313%3A0xf1d07a0cc84f174c!2sSajek%20Valley!5e1!3m2!1sen!2sbd!4v1600281981254!5m2!1sen!2sbd',
         lat: '23.3820',
         lng: '92.2938',
