@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Destination from './Components/Destination/Destination';
 import PrivateRoute from './Components/Login/PrivateRoute';
+import Going from './Components/Going/Going';
 export const UserContext = createContext();  
 function App() {
   const[user, setUser]=useState({})  
@@ -28,6 +29,9 @@ function App() {
           <PrivateRoute path="/destination/:placeName">
           <Destination/>
           </PrivateRoute>
+          <Route path="/going/:destination-area">
+          <Going></Going>
+          </Route>
           <Route exact path="/">
           <Home/>
           </Route>

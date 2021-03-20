@@ -7,7 +7,7 @@ import SimpleMap from './Map';
 const Destination = () => {
     const {placeName} = useParams();
     const destination = fakeData.find(place => place.name === placeName);
-    const {lat, lng} = fakeData.find(place => place.name === placeName);
+    const {location,lat, lng} = fakeData.find(place => place.name === placeName);
 
     // Differences of days
     const [stay, setStay] = useState({from:0, to:0});
@@ -53,8 +53,10 @@ const Destination = () => {
                     setStay(newTo)
                     }} />
             </InputGroup>
-            
-            <Link className="link" to={`/going/${placeName}`}>
+
+            <Button variant="primary" type="submit" className=" btn-block">Search</Button>
+            <br/>
+            <Link className="link" to={`/going/${location}`}>
             <Button disabled={disable} variant="success" type="submit" className="btn-large btn-block">                                  
                 {
                 disable ?
@@ -66,7 +68,7 @@ const Destination = () => {
         </Form>
     </Col>
     <Col md={6} className="my-6">
-        <SimpleMap name={placeName} lat={lat} lng={lng} />
+        <SimpleMap name={location} lat={lat} lng={lng} />
     </Col>
     </Row>
     </Container>
