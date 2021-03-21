@@ -1,6 +1,7 @@
 const fakeData = [
     {
         location:'destination-area',
+        price:'78',
         name: 'Bike',
         journey:'Gulshan-To-Banani',
         photo:'https://cdnb.artstation.com/p/assets/images/images/015/279/529/large/ivanise-konopka-raph-bike.jpg?1547754525',

@@ -71,6 +71,7 @@ const Destination = () => {
     <Col md={6} className="my-6">
         <SimpleMap name={location} lat={lat} lng={lng} />
     </Col>
+    
     </Row>
     </Container>
     </section>
