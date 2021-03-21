@@ -59,6 +59,7 @@ const Login = () => {
     }
     
     const subForm = (e) => {
+       
         //Email Sign in
         if (newUser){
             if(validForm) {
@@ -82,7 +83,8 @@ const Login = () => {
             }
         }
 
-        // email login
+      
+        // Email login
         if (!newUser) {
                 firebase.auth().signInWithEmailAndPassword(user.email, user.password)
                 .then(result => {

@@ -56,6 +56,7 @@ const Destination = () => {
 
             <Button variant="primary" type="submit" className=" btn-block">Search</Button>
             <br/>
+            
             <Link className="link" to={`/going/${location}`}>
             <Button disabled={disable} variant="success" type="submit" className="btn-large btn-block">                                  
                 {
